@@ -9,4 +9,5 @@ loop()
 	Digital.Write(pin2, 1);
 	Delay(100);
 	DigitalWrite(pin2, 0);
+	Delay(100);
 }
