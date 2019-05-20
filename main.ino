@@ -6,7 +6,7 @@ setup()
 loop()
 {
 	// blink LED
-	Digital.Write(1);
+	Digital.Write(pin2, 1);
 	Delay(100);
-	DigitalWrite(0);
+	DigitalWrite(pin2, 0);
 }
